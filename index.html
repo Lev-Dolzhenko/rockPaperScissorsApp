@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scisors Game!</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="js.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,900" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__choice">
+            <h1 class="choice__title">Rock-Paper-Scissors App</h1>
+            <div class="blocks">
+                <div class="rock-block choice block" name='Камень'>
+                    <img src="/img/rock.png" alt="Камень" width="100px">
+                </div>
+                <div class="paper-block choice block" name='Бумага'>
+                    <img src="/img/paper.png" alt="Бумага" width="100px">
+                </div>
+                <div class="scissors-block choice block" name='Ножницы'>
+                    <img src="/img/scissors.png" alt="Ножницы" width="100px">
+                </div>
+            </div>
+            <button class="btn-start button">Start!</button>
+        </div>
+        <div class="container__info none">
+            <h1 class="info__title"></h1>
+            <button class="btn-again button">Again</button>
+        </div>
+    </div>
+</body>
+
+</html>
